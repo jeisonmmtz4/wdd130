@@ -1,5 +1,13 @@
+:root {
+    --heading-background-color: rgb(240 0 0);
+    --heading-text-colot: #333;
+    --heading-font: 'Monteserrat', Helvestica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgba(32, 211, 47, 0.1);
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -18,16 +26,17 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgb(70, 36, 36);
 }
 
 p {
     padding: 0;
+    color: var(--heading-text-colot);
 }
 
 aside {
     width: 20em;
-    border: 1px solid rgba(0, 0, 0, 0, 0.2);
+    border: var(--border);
     padding: 1em;
     background-color: #eee;
     color: #333;
